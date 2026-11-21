@@ -1,4 +1,9 @@
-reparing the emergency lock on the os
+reparing the emergency lock on the os am inside the installation media i then mount the drive 
+
+mount /dev/vda1 /mnt
+swapon /dev/vda2
+genfstab -U /mnt >> /mnt/etc/fstab
+arch-chroot -S /mnt
 findmnt /
 ls -l /etc/passwd.lock /etc/group.lock /
 ls -l /etc/passwd /etc/group
