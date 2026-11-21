@@ -1,0 +1,4 @@
+reparing the emergency lock on the os
+findmnt /
+ls -l /etc/passwd.lock /etc/group.lock /
+ls -l /etc/passwd /etc/group
