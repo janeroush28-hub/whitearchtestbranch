@@ -1,4 +1,7 @@
-reparing the emergency lock on the os am inside the installation media i then mount the drive
+#reparing the emergency lock on the os am inside the installation media i then mount the drive
+#unmounts and mounts back when i am on the instalation disk and the it trips the emergency read only
+#wont allow me to update and upgrade my os.
+
 mount /dev/vda1 /mnt
 swapon /dev/vda2
 genfstab -U /mnt >> /mnt/etc/fstab
